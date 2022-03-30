@@ -32,7 +32,7 @@ top: 30px;
 z-index: 2;
 }
 .header__title {
-  width: 730px;
+  max-width: 730px;
   height: 96px;
   margin: 0;
   font-size: 102px;
@@ -49,10 +49,15 @@ z-index: 2;
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+  margin: 0;
 }
 .header__link {
   color:  #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: red;
 }
 .header_main-illustration {
   height: 608px;
@@ -87,7 +92,7 @@ z-index: 2;
 }
 .two-columns__brief {
   margin: 0;
-  width: 175px;
+  max-width: 175px;
   font-weight: normal;
   line-height: 120%;
   font-size: 18px;
@@ -182,7 +187,7 @@ z-index: 2;
   font-size: 120px;
   font-weight: bold;
   padding: 100px 0 0px;
-  width: 648px;
+  max-width: 648px;
   text-align: center;
   margin: auto; 
 }
@@ -204,6 +209,9 @@ z-index: 2;
   top: 50%;
   text-decoration: none;
 }
+.feynman__link:hover {
+  color: red;
+}
 
 .kaufman {
   overflow:hidden;
@@ -216,22 +224,26 @@ z-index: 2;
 }
 .section-title_theme_dark {
   color: white;
-  padding: 90px 0 20px;
+  padding: 0 0 20px;
   z-index: 2;
 }
 .section-subtitle_theme_dark {
   color: white;
   z-index: 2;
 }
+.table_theme_dark {
+  padding: 0;
+  margin: auto;
 
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  padding: 0;
+  padding-top: 80px;
+  margin: 0;
   z-index: 2;
 }
+
 .kaufman__triangle {
   position: absolute;
   height: 877px;
