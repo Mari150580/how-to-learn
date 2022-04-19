@@ -10,3 +10,7 @@
   .footer__column-link:last-child {
     padding-bottom: 16px;
   }
+
+  .footer__column-link:hover {
+    opacity: 0.5;
+  }
